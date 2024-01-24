@@ -5,10 +5,10 @@ import {
   Discriptionstyled,
   Headingstyled,
   Imagewrapper,
-  Innerwrapper,
+  Advantageinerwrapper,
   Advantageleftside,
-  AdvantageSection,
-  AdvantageWrapper,
+ Advantagesection,
+ Advantagewrapper,
   Advantagerightside,
   DataContainer,
   CardIconImage,
@@ -19,9 +19,9 @@ import WhyAssect from "../asserts/group-68.png";
 export function Advantagespage() {
   return (
     <>
-      <AdvantageSection>
-        <AdvantageWrapper>
-          <Innerwrapper>
+      <Advantagesection>
+        <Advantagewrapper>
+          <Advantageinerwrapper>
             <Cardcontainer>
               <Advantagerightside>
                 <Imagewrapper src={WhyAssect} alt="advantageimg"></Imagewrapper>
@@ -53,9 +53,9 @@ export function Advantagespage() {
                 </Contentstyled>
               </Advantageleftside>
             </Cardcontainer>
-          </Innerwrapper>
-        </AdvantageWrapper>
-      </AdvantageSection>
+          </Advantageinerwrapper>
+        </Advantagewrapper>
+      </Advantagesection>
     </>
   );
 }

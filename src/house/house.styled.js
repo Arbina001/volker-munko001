@@ -101,7 +101,7 @@ export const Wealthpropertieswrapper = styled.ul`
   }
 `;
 
-export const WealthdetailsData = styled.li`
+export const Wealthdetailsdata = styled.li`
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;

@@ -12,8 +12,8 @@ import {
   Wealthrightsideinnerbox,
   Wealthrightboxdata,
 } from "./house.styled";
-import { WealthProps } from "./housedata";
-import { Data, DataSecond } from "./houseiddata";
+import { Wealthmanagmentprops } from "./housedata";
+import { Data, Detailsdata } from "./houseiddata";
 export const Housepage = () => {
   return (
     <>
@@ -29,9 +29,9 @@ export const Housepage = () => {
                   </Wealthheading>
                   <Wealthpropertieswrapper>
                     {Data.map((data) => (
-                      <WealthProps
+                      <Wealthmanagmentprops
                         key={data.id}
-                        svg={data.WealthIcon}
+                        svg={data.Managmentlogo}
                         Title={data.Title}
                       />
                     ))}
@@ -41,10 +41,10 @@ export const Housepage = () => {
               <Wealthrightside>
                 <Wealthrightsideinnerbox>
                   <Wealthrightboxdata>
-                    {DataSecond.map((data) => (
-                      <WealthProps
+                    {Detailsdata.map((data) => (
+                      <Wealthmanagmentprops
                         key={data.id}
-                        svg={data.WealthIcon}
+                        svg={data.Managmentlogo}
                         Title={data.Title}
                       />
                     ))}

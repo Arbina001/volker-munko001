@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const AdvantageSection = styled.div`
+export const Advantagesection = styled.div`
   width: 100%;
   max-width: 1050px;
   margin: 0 auto;
@@ -11,12 +11,12 @@ export const AdvantageSection = styled.div`
   }
 `;
 
-export const AdvantageWrapper = styled.div`
+export const Advantagewrapper = styled.div`
   margin: 20px;
   position: relative;
 `;
 
-export const Innerwrapper = styled.div`
+export const Advantageinerwrapper = styled.div`
   display: flex;
 `;
 
@@ -68,7 +68,7 @@ export const Contentstyled = styled.div`
   font-size: 24px;
   font-weight: 600;
   line-height: 51px;
-  padding: 47px 0px 0px 0px;
+  padding: 46px 0px 0px 0px;
 
   @media (max-width: 991px) {
     font-size: 13px;
@@ -105,7 +105,7 @@ export const CardIconImage = styled.div`
   border-radius: 50%;
   text-align: center;
   font-size: 10px;
-  color: #fff;
+  color: #ffffff;
   background-color: #5a5a5b;
 
   @media (max-width: 991px) {
@@ -118,7 +118,7 @@ export const ListData = styled.div`
   width: 100%;
   font-size: 15px;
   text-align: center;
-  box-shadow: 0 0 40px 0 #fff;
+  box-shadow: 0 0 40px 0 #ffffff;
   margin: -9px 0px 0px 0px;
 
   @media (max-width: 991px) {
@@ -150,7 +150,7 @@ export const Cardcontainer = styled.div`
   @media (max-width: 991px) {
     flex-direction: column;
     width: 100%;
-    height: 720px;
+    height: 716px;
     margin: 0 auto;
   }
 `;

@@ -28,7 +28,7 @@ export const Data = [
     Title: "How can I save more without giving up a good life?",
   },
 ];
-export const DataSecond = [
+export const Detailsdata = [
   {
     id: 6,
     svg: Corporatelogo,
