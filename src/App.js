@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import { Header } from "./header/header";
+import { Footerpage } from "./footer/footer";
+import { Mapspage } from "./maps/maps";
+import { Advantagespage } from "./advantages/advantages";
+import { Managmentpage } from "./assestmanagment/managment";
+import { GlobalStyles } from "./App.style";
+import { Housepage } from "./house/house";
+import { Productpage } from "./products/products";
+import { Financepage } from "./finance/finance";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Header />
+
+      <Mapspage />
+      <Advantagespage />
+      <Managmentpage />
+      <Productpage />
+      <Housepage />
+      <Financepage />
+      <Footerpage /> */}
+      <GlobalStyles />
     </div>
   );
 }
