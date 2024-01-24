@@ -93,7 +93,7 @@ export const Detailsbox = styled.li`
   display: flex;
 
   @media (max-width: 991px) {
-    padding: 16px 0 0 20px;
+    margin: -18px 0px 0px 17px
   }
 `;
 

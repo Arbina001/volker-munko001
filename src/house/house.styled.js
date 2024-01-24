@@ -35,7 +35,7 @@ export const Wealthcontainer = styled.div``;
 
 export const Wealthwrapper = styled.div`
   width: 100%;
-  max-width: 1100px;
+  max-width: 1050px;
   margin: 0 auto;
 `;
 
@@ -69,7 +69,7 @@ export const Wealthheading = styled.div`
   line-height: 70px;
   color: #ffffff;
   margin: 0 0 100px 0;
-  padding: 60px 0 0 0;
+  padding: 62px 0 0 0;
 
   &::before {
     content: "";
@@ -80,11 +80,13 @@ export const Wealthheading = styled.div`
     width: 190px;
     background: #ffffff;
   }
+
   @media (max-width: 991px) {
     font-size: 23px;
     line-height: 30px;
     margin: 0 0 30px 0;
     padding: 0;
+
     &::before {
       width: 95px;
       height: 3px;

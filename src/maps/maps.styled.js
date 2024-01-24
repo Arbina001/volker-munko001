@@ -4,7 +4,7 @@ export const Mapssection = styled.section``;
 
 export const Mapscontainer = styled.div`
   width: 100%;
-  max-width: 1366px;
+  max-width: 1050px;
   margin: 0 auto;
 
   @media (max-width: 991px) {
@@ -70,8 +70,9 @@ export const ContactAssetBox = styled.div`
   font-size: 22px;
   font-weight: 500;
   padding: 0px 0px 0px 31px;
+
   &::before {
-    content: " ";
+    content: "";
     position: absolute;
     width: 100%;
     max-width: 18px;
