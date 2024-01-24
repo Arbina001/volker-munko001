@@ -19,8 +19,8 @@ export const Cardcontainer = styled.li`
       position: absolute;
       content: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable EnglishLorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable Englishthat it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English";
       color: #ffffff;
-      font-size: 15px;
-      padding: 15px;
+      font-size: 16px;
+      padding: 12px;
       box-sizing: border-box;
       transform: rotatex(360deg);
       transition: transform 1s ease;

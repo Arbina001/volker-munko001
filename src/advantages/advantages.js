@@ -10,9 +10,9 @@ import {
  Advantagesection,
  Advantagewrapper,
   Advantagerightside,
-  DataContainer,
-  CardIconImage,
-  ListData,
+  Detailsbox,
+  Numberslogo,
+  Numbersdetails,
 } from "./advantages.styled";
 import WhyAssect from "../asserts/group-68.png";
 
@@ -32,24 +32,24 @@ export function Advantagespage() {
                   It is a long established fact that a reader will be distracted
                 </Discriptionstyled>
                 <Contentstyled>
-                  <DataContainer>
-                    <CardIconImage>
-                      <ListData>1</ListData>
-                    </CardIconImage>
+                  <Detailsbox>
+                    <Numberslogo>
+                      <Numbersdetails>1</Numbersdetails>
+                    </Numberslogo>
                     You take center stage
-                  </DataContainer>
-                  <DataContainer>
-                    <CardIconImage>
-                      <ListData>2</ListData>
-                    </CardIconImage>
+                  </Detailsbox>
+                  <Detailsbox>
+                    <Numberslogo>
+                      <Numbersdetails>2</Numbersdetails>
+                    </Numberslogo>
                     You take center stage
-                  </DataContainer>
-                  <DataContainer>
-                    <CardIconImage>
-                      <ListData>3</ListData>
-                    </CardIconImage>
+                  </Detailsbox>
+                  <Detailsbox>
+                    <Numberslogo>
+                      <Numbersdetails>3</Numbersdetails>
+                    </Numberslogo>
                     You take center stage
-                  </DataContainer>
+                  </Detailsbox>
                 </Contentstyled>
               </Advantageleftside>
             </Cardcontainer>

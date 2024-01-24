@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const Footersection = styled.section`
-  background-image: url(https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/b8ebc7b6-3e25-4f50-a136-6d9bbcc23102.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/b8ebc7b6-3e25-4f50-a136-6d9bbcc23102.svg) no-repeat cover;
 `;
 
 export const Footercontainer = styled.div`

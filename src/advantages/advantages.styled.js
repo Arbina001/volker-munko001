@@ -89,7 +89,7 @@ export const TextStyled = styled.span`
   color: #ffffff;
 `;
 
-export const DataContainer = styled.li`
+export const Detailsbox = styled.li`
   display: flex;
 
   @media (max-width: 991px) {
@@ -97,7 +97,7 @@ export const DataContainer = styled.li`
   }
 `;
 
-export const CardIconImage = styled.div`
+export const Numberslogo = styled.div`
   width: 100%;
   max-width: 30px;
   height: 30px;
@@ -114,7 +114,7 @@ export const CardIconImage = styled.div`
   }
 `;
 
-export const ListData = styled.div`
+export const Numbersdetails = styled.div`
   width: 100%;
   font-size: 15px;
   text-align: center;
