@@ -14,7 +14,7 @@ export const Mapscontainer = styled.div`
 
 export const Mapswrapper = styled.div`
   margin: 0 19px 20px;
-  padding: 33px 120px 0px 118px;
+    padding: 33px 20px 0px 36px;
 
   @media (max-width: 991px) {
     margin: 0;

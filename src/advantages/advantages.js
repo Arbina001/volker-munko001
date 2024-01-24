@@ -14,7 +14,7 @@ import {
   Numberslogo,
   Numbersdetails,
 } from "./advantages.styled";
-import WhyAssect from "../asserts/group-68.png";
+import Whyassetsmanagment from "../asserts/group-68.png";
 
 export function Advantagespage() {
   return (
@@ -24,7 +24,7 @@ export function Advantagespage() {
           <Advantageinerwrapper>
             <Cardcontainer>
               <Advantagerightside>
-                <Imagewrapper src={WhyAssect} alt="advantageimg"></Imagewrapper>
+                <Imagewrapper src={Whyassetsmanagment} alt="advantages"></Imagewrapper>
               </Advantagerightside>
               <Advantageleftside>
                 <Headingstyled>Your advantages at a glance</Headingstyled>
