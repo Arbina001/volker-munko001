@@ -12,7 +12,7 @@ import { Financepage } from "./finance/finance";
 function App() {
   return (
     <div>
-      <Header />
+      {/* <Header />
 
       <Mapspage />
       <Advantagespage />
@@ -20,7 +20,7 @@ function App() {
       <Productpage />
       <Housepage />
       <Financepage />
-      <Footerpage />
+      <Footerpage /> */}
       <GlobalStyles />
     </div>
   );
