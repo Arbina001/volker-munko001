@@ -1,18 +1,14 @@
 import React from "react";
-import {
-  WealthDiscriptionData,
-  WealthDataIcon,
-  WealthDiscription,
-} from "./house.styled";
+import { WealthdetailsData, Data, Wealthdetails } from "./house.styled";
 export const WealthProps = (props) => {
   return (
     <>
-      <WealthDiscriptionData>
-        <WealthDataIcon>
-          <img src={props.WealthIcon} alt="tickIcon" />
-        </WealthDataIcon>
-        <WealthDiscription>{props.WealthText}</WealthDiscription>
-      </WealthDiscriptionData>
+      <WealthdetailsData>
+        <Data>
+          <img src={props.svg} alt="correctimg" />
+        </Data>
+        <Wealthdetails>{props.Title}</Wealthdetails>
+      </WealthdetailsData>
     </>
   );
 };

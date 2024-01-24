@@ -8,12 +8,12 @@ import {
   Wealthleftbox,
   Wealthheading,
   Wealthpropertieswrapper,
-  WealthRightBox,
-  WealthRightBoxInner,
-  WealthRightBoxList,
+  Wealthrightside,
+  Wealthrightsideinnerbox,
+  Wealthrightboxdata,
 } from "./house.styled";
 import { WealthProps } from "./housedata";
-import { WealthData, WealthDataSecond } from "./houseiddata";
+import { Data, DataSecond } from "./houseiddata";
 export const Housepage = () => {
   return (
     <>
@@ -28,29 +28,29 @@ export const Housepage = () => {
                     Vlotho
                   </Wealthheading>
                   <Wealthpropertieswrapper>
-                    {WealthData.map((output) => (
+                    {Data.map((data) => (
                       <WealthProps
-                        key={output.id}
-                        WealthIcon={output.WealthIcon}
-                        WealthText={output.WealthText}
+                        key={data.id}
+                        svg={data.WealthIcon}
+                        Title={data.Title}
                       />
                     ))}
                   </Wealthpropertieswrapper>
                 </Wealthleftbox>
               </Wealthleftsection>
-              <WealthRightBox>
-                <WealthRightBoxInner>
-                  <WealthRightBoxList>
-                    {WealthDataSecond.map((output) => (
+              <Wealthrightside>
+                <Wealthrightsideinnerbox>
+                  <Wealthrightboxdata>
+                    {DataSecond.map((data) => (
                       <WealthProps
-                        key={output.id}
-                        WealthIcon={output.WealthIcon}
-                        WealthText={output.WealthText}
+                        key={data.id}
+                        svg={data.WealthIcon}
+                        Title={data.Title}
                       />
                     ))}
-                  </WealthRightBoxList>
-                </WealthRightBoxInner>
-              </WealthRightBox>
+                  </Wealthrightboxdata>
+                </Wealthrightsideinnerbox>
+              </Wealthrightside>
             </Wealthinnerwrapper>
           </Wealthwrapper>
         </Wealthcontainer>

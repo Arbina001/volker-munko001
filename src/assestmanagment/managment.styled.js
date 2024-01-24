@@ -4,7 +4,7 @@ export const Managmentsection = styled.section``;
 export const Managmentcontainer = styled.div`
   margin: 20px;
   position: relative;
-  padding: 5px 0 30px;
+  padding: 6px 0 30px;
 
   @media (max-width: 991px) {
     max-width: max-content;
@@ -12,7 +12,8 @@ export const Managmentcontainer = styled.div`
 `;
 
 export const Managmentwrapper = styled.div`
-  background: url(https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/315bba66-2840-4652-bca2-8c3ccf59bcb2.png) no-repeat;
+  background: url(https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/315bba66-2840-4652-bca2-8c3ccf59bcb2.png)
+    no-repeat;
   background-size: 660px 640px;
   background-position: right 20px bottom 10px;
   height: 650px;
@@ -38,7 +39,7 @@ export const Managmentgradient = styled.div`
   position: relative;
   top: -73px;
   z-index: 0;
-  background-image: linear-gradient(to bottom, #F8E9ED, #FBFBFB);
+  background-image: linear-gradient(to bottom, #f8e9ed, #fbfbfb);
 
   @media (max-width: 991px) {
     max-width: 250px;
@@ -84,7 +85,7 @@ export const Managmentbox = styled.div`
   font-size: 54px;
   font-weight: bold;
   text-align: right;
-  color: #14183E;
+  color: #14183e;
   z-index: 1;
   position: relative;
 
@@ -102,12 +103,12 @@ export const Distributiondiscription = styled.p`
   font-size: 16px;
   line-height: 33px;
   text-align: left;
-  color: #37415C;
+  color: #37415c;
 
   @media (max-width: 991px) {
     line-height: 20px;
     text-align: left;
-    font-size: 11px;
+    font-size: 12px;
   }
 `;
 
@@ -144,7 +145,7 @@ export const Contactusbuttonwrapper = styled.button`
 
 export const Buttontxtstyled = styled.p`
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 600;
   color: #ffffff;
   text-shadow: 4px 4px 20px #ffffff;

@@ -1,15 +1,15 @@
-import { createGlobalStyle } from 'styled-components';
-import NunitoBlack from './fonts/Nunito-Black.ttf';
-import NunitoBold from './fonts/Nunito-Bold.ttf';
-import NunitoRegular from './fonts/Nunito-Regular.ttf';
-import NunitoLight from './fonts/Nunito-Light.ttf';
-import NunitoSemiBold from './fonts/Nunito-SemiBold.ttf';
-import NunitoMedium from './fonts/Nunito-Medium.ttf';
+import { createGlobalStyle } from "styled-components";
+import NunitoBlack from "./fonts/Nunito-Black.ttf";
+import NunitoBold from "./fonts/Nunito-Bold.ttf";
+import NunitoRegular from "./fonts/Nunito-Regular.ttf";
+import NunitoLight from "./fonts/Nunito-Light.ttf";
+import NunitoSemiBold from "./fonts/Nunito-SemiBold.ttf";
+import NunitoMedium from "./fonts/Nunito-Medium.ttf";
 export const GlobalStyles = createGlobalStyle`
 body{
   margin: 0;
   padding: 0;
-  ${'' /* background: #F9F9F9; */}
+  ${"" /* background: #F9F9F9; */}
 }
   @font-face {
     font-family: 'Nunito-Black';

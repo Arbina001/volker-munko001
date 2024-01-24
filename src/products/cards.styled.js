@@ -7,16 +7,18 @@ export const Cardcontainer = styled.li`
   margin: 33px 5px 31px 17px;
   padding: 20px 17px 39px 25px;
   border-radius: 20px;
-  border: solid 1px #E9E5E5;
+  border: solid 1px #e9e5e5;
   background-color: #fff;
   position: relative;
+
   &:hover {
-    background-color: #000;
-    color: #FFFFFF;
+    background-color: #000000;
+    color: #ffffff;
+
     &::before {
       position: absolute;
       content: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable EnglishLorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable Englishthat it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English";
-      color: #fff;
+      color: #ffffff;
       font-size: 15px;
       padding: 15px;
       box-sizing: border-box;
@@ -30,9 +32,9 @@ export const Cardcontainer = styled.li`
   }
 `;
 
-export const CardImageBox = styled.div``;
+export const CardimageBox = styled.div``;
 
-export const Cardimagebox = styled.img`
+export const Detailsimagebox = styled.img`
   position: relative;
   max-width: 22px;
   left: 238px;
@@ -43,13 +45,13 @@ export const Cardimagebox = styled.img`
   }
 `;
 
-export const CardImage = styled.img`
+export const Cardimage = styled.img`
   position: relative;
   width: 120px;
   left: 69px;
 `;
 
-export const CardButton = styled.div`
+export const Contactusbutton = styled.div`
   margin: 40px;
   width: 159px;
   height: 31px;
@@ -57,7 +59,7 @@ export const CardButton = styled.div`
   font-size: 15px;
   padding: 13px 0px 0px 0px;
   border-radius: 10px;
-  background-color: #ECECEC;
+  background-color: #ececec;
   text-shadow: 4px 4px 10px #ffffff;
 `;
 
@@ -67,7 +69,7 @@ export const Carddiscription = styled.div`
   text-align: center;
 `;
 
-export const CardWrapper = styled.ul`
+export const Cardsbox = styled.ul`
   display: flex;
   flex-wrap: wrap;
   width: 100%;

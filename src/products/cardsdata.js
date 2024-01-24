@@ -1,8 +1,33 @@
-import CorporateManIcon from "../asserts/group-16-5.png";
-export const CardData = [
+import Imagesrc from "../asserts/group-16-4@3x.png";
+export const Details = [
   {
     id: 1,
-    url: CorporateManIcon,
+    url: Imagesrc,
+    title: "benefit from government subsidies and saves taxes",
+  },
+  {
+    id: 2,
+    url: Imagesrc,
+    title: "benefit from government subsidies and saves taxes",
+  },
+  {
+    id: 3,
+    url: Imagesrc,
+    title: "benefit from government subsidies and saves taxes",
+  },
+  {
+    id: 4,
+    url: Imagesrc,
+    title: "benefit from government subsidies and saves taxes",
+  },
+  {
+    id: 5,
+    url: Imagesrc,
+    title: "benefit from government subsidies and saves taxes",
+  },
+  {
+    id: 6,
+    url: Imagesrc,
     title: "benefit from government subsidies and saves taxes",
   },
 ];

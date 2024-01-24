@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Financesection = styled.section``;
 
 export const Financecontainer = styled.div`
-
   width: 100%;
   max-width: 1366px;
   margin: 0 auto;
@@ -15,11 +14,11 @@ export const Financecontainer = styled.div`
 
 export const Financewrapper = styled.div`
   margin: 0 26px 0 58px;
-    padding: 27px 80px 0px 112px;
+  padding: 27px 80px 0px 112px;
 
   @media (max-width: 991px) {
     margin: 0;
-    padding: 0 10px ;
+    padding: 0 10px;
   }
 `;
 
@@ -37,7 +36,7 @@ export const Financeleftbox = styled.div`
   width: 100%;
   max-width: 50%;
 
-  @media (max-width:991px) {
+  @media (max-width: 991px) {
     max-width: 700px;
   }
 `;
@@ -59,7 +58,7 @@ export const Financeheading = styled.div`
   font-family: "Nunito-bold";
   font-size: 50px;
   line-height: 50px;
-  color: #14183E;
+  color: #14183e;
   z-index: 1;
 
   @media (max-width: 991px) {
@@ -75,13 +74,12 @@ export const Financeheading = styled.div`
     height: 72px;
     object-fit: contain;
     z-index: -1;
-    background: linear-gradient(to bottom, #F8E9ED, #FBFBFB);
-
+    background: linear-gradient(to bottom, #f8e9ed, #fbfbfb);
   }
 `;
 
 export const Financedisccription = styled.p`
-  color: #37415C;
+  color: #37415c;
   width: 100%;
   max-width: 500px;
   font-family: "Nunito-Regular";
@@ -99,12 +97,12 @@ export const Contectusbutton = styled.button`
   height: 60px;
   border-radius: 10px;
   border: none;
-  background-color: #E6E6E6;
+  background-color: #e6e6e6;
   margin: 32px 0px;
 `;
 
 export const Buttontextstyled = styled.p`
-  color: #14183E;
+  color: #14183e;
   text-shadow: 4px 4px 20px #ffffff;
   font-size: 16px;
   font-family: "Nunito-Bold";
@@ -114,11 +112,11 @@ export const Advicecomponent = styled.div`
   width: 100%;
   max-width: 50px;
   height: 0;
-  border:  1px solid #3B3B3C;
+  border: 1px solid #3b3b3c;
 
   @media (max-width: 991px) {
     max-width: 15px;
-    border:  1px  solid #3B3B3C;
+    border: 1px solid #3b3b3c;
   }
 `;
 
@@ -131,7 +129,7 @@ export const Headingstyled = styled.p`
   font-size: 24px;
   line-height: 34px;
   text-align: left;
-  color: #14183E;
+  color: #14183e;
 
   @media (max-width: 991px) {
     font-size: 14px;
@@ -158,7 +156,7 @@ export const Servicewrapper = styled.div`
   max-width: 400px;
   height: 328px;
   border-radius: 23px;
-  border:  1px solid #CFCFCF;
+  border: 1px solid #cfcfcf;
   background-color: #fff;
   margin: 42px 0px 0px 0px;
 
@@ -189,7 +187,7 @@ export const Verticalline = styled.div`
   width: 0;
   height: 141px;
   margin: 1px 44px 48px;
-  border:  0.5px solid #CFCFCF;
+  border: 0.5px solid #cfcfcf;
 
   @media (max-width: 991px) {
     margin: 1px 40px 15px;
@@ -203,7 +201,7 @@ export const HeadingGradient = styled.div`
   position: relative;
   top: -180px;
   z-index: 0;
-  background: linear-gradient(to bottom, #F8E9ED, #FBFBFB);
+  background: linear-gradient(to bottom, #f8e9ed, #fbfbfb);
 
   @media (max-width: 991px) {
     max-width: 250px;

@@ -5,8 +5,8 @@ export const AdvantageSection = styled.div`
   max-width: 1050px;
   margin: 0 auto;
   background-color: #ffffff;
-  
-@media (max-width: 991px) {
+
+  @media (max-width: 991px) {
     padding: 0;
   }
 `;
@@ -41,21 +41,20 @@ export const Advantageleftside = styled.div`
 
 export const Headingstyled = styled.div`
   color: #000000;
-  font-size: 55px;
-  font-weight: normal;
+  font-size: 56px;
+
   line-height: 70px;
-  padding: 9px 9px 20px 15px;
+  padding: 9px 9px 20px 16px;
 
   @media (max-width: 991px) {
-    font-size: 39px;
-    line-height: 35px;
-  }  
+    font-size: 40px;
+    line-height: 36px;
+  }
 `;
 
 export const Discriptionstyled = styled.p`
   height: 13px;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.19;
   letter-spacing: -0.16px;
   text-align: left;
@@ -66,29 +65,66 @@ export const Discriptionstyled = styled.p`
 export const Contentstyled = styled.div`
   margin: 4px 0 3px 28px;
   color: #37415c;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 3.72;
-    letter-spacing: -0.18px;
-    margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 51px;
+  padding: 47px 0px 0px 0px;
 
-    @media (max-width: 991px) {
-font-size: 13px;
-margin:  0 0 0 18px;
-    }
+  @media (max-width: 991px) {
+    font-size: 13px;
+    margin: 0 0 0 18px;
+  }
 `;
 
 export const ContentDiscription = styled.li`
-background-color: #000000;
-color: #ffffff;
-border-radius: 50% ;
-border: 2px solid ;
-height: 20px;
-width: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 50%;
+  border: 2px solid;
+  height: 20px;
+  width: 20px;
 `;
 
 export const TextStyled = styled.span`
-color: #ffffff;
+  color: #ffffff;
+`;
+
+export const DataContainer = styled.li`
+  display: flex;
+
+  @media (max-width: 991px) {
+    padding: 16px 0 0 20px;
+  }
+`;
+
+export const CardIconImage = styled.div`
+  width: 100%;
+  max-width: 30px;
+  height: 30px;
+  margin: 0 28px 0 0;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+  background-color: #5a5a5b;
+
+  @media (max-width: 991px) {
+    max-width: 20px;
+    height: 20px;
+  }
+`;
+
+export const ListData = styled.div`
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+  box-shadow: 0 0 40px 0 #fff;
+  margin: -9px 0px 0px 0px;
+
+  @media (max-width: 991px) {
+    padding: 2px 0;
+    font-size: 12px;
+  }
 `;
 
 export const Imagewrapper = styled.img`

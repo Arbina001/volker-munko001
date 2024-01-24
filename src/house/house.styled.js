@@ -8,17 +8,19 @@ export const Wealthsection = styled.section`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
+
   &:before {
     content: "";
     background: url(${HouseProtection});
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 560px 620px;
-    width: 560px;
-    height: 620px;
+    background-size: 540px 578px;
     position: absolute;
+    width: 550px;
+    height: 500px; 
     right: 0;
     top: 167px;
+
     @media (max-width: 991px) {
       width: 100%;
       max-width: 270px;
@@ -28,28 +30,35 @@ export const Wealthsection = styled.section`
     }
   }
 `;
+
 export const Wealthcontainer = styled.div``;
+
 export const Wealthwrapper = styled.div`
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
 `;
+
 export const Wealthinnerwrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   padding: 180px 0;
+
   @media (max-width: 991px) {
     flex-direction: column;
     align-items: flex-start;
     padding: 140px 0 70px;
   }
 `;
+
 export const Wealthleftsection = styled.div`
   max-width: 530px;
   width: 100%;
 `;
+
 export const Wealthleftbox = styled.div``;
+
 export const Wealthheading = styled.div`
   position: relative;
   max-width: 565px;
@@ -58,9 +67,10 @@ export const Wealthheading = styled.div`
   font-size: 52px;
   font-weight: 500;
   line-height: 70px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0 0 100px 0;
   padding: 60px 0 0 0;
+
   &::before {
     content: "";
     position: absolute;
@@ -68,7 +78,7 @@ export const Wealthheading = styled.div`
     bottom: -50px;
     height: 5px;
     width: 190px;
-    background: #FFFFFF;
+    background: #ffffff;
   }
   @media (max-width: 991px) {
     font-size: 23px;
@@ -82,13 +92,16 @@ export const Wealthheading = styled.div`
     }
   }
 `;
+
 export const Wealthpropertieswrapper = styled.ul`
   list-style: none;
+
   @media (max-width: 991px) {
     margin: 300px 0 0;
   }
 `;
-export const WealthDiscriptionData = styled.li`
+
+export const WealthdetailsData = styled.li`
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -96,38 +109,45 @@ export const WealthDiscriptionData = styled.li`
   max-width: 490px;
   width: 100%;
   font-family: "Nunito-Regular";
+
   @media (max-width: 991px) {
     margin: 0 0px 20px -30px;
   }
 `;
-export const WealthDataIcon = styled.div`
+
+export const Data = styled.div`
   margin: 30px 30px 0 0;
 `;
-export const WealthRightBoxInner = styled.div``;
-export const WealthDiscription = styled.p`
+
+export const Wealthrightsideinnerbox = styled.div``;
+
+export const Wealthdetails = styled.p`
   font-family: "Nunito-Regular";
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  color: #F3F3F3;
+  color: #f3f3f3;
+
   @media (max-width: 991px) {
     font-size: 14px;
   }
 `;
 
-// export const Wealthheading = styled.p``
-export const WealthRightBox = styled.div`
+export const Wealthrightside = styled.div`
   max-width: 500px;
   width: 100%;
   margin: 0 0 0 30px;
+
   @media (max-width: 991px) {
     max-width: 344px;
   }
 `;
-export const WealthRightBoxList = styled.ul`
+
+export const Wealthrightboxdata = styled.ul`
   margin: 550px 0 0 0;
   list-style: none;
+
   @media (max-width: 991px) {
-    margin: 0 0 0 -30px;
+    margin: 0 0 0 -28px;
   }
 `;

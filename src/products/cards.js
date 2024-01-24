@@ -1,43 +1,33 @@
 import {
-    CardButton,
-   Cardcontainer,
-   Carddiscription,
-    CardImage,
-    CardImageBox,
-    Cardimagebox,
-    CardWrapper,
-    Carddetails,
-  } from "./cards.styled";
-  import information from "../asserts/information-button-2.png";
-  import { CardData } from "./cardsdata";
-  export function CardSection() {
-    const ProductMenu = CardData.map((output) => (
-      <>    
-        <Cardcontainer>
-          <Cardimagebox src={information}/>
-          <Carddetails>
-            <CardImageBox>
-              <CardImage src={output.url}/>
-            </CardImageBox>
-            <Carddiscription>{output.title}</Carddiscription>
-            <CardButton>contact</CardButton>
-          </Carddetails>
-        </Cardcontainer>
-      </>
-    ));
-    return (
-      <>
-        <CardWrapper>
-          {ProductMenu}
-          {ProductMenu}
-          {ProductMenu}
-          {ProductMenu}
-          {ProductMenu}
-          {ProductMenu}
-          {ProductMenu}
-          {ProductMenu}
-          {ProductMenu}
-        </CardWrapper>
-      </>
-    );
-  }
+  Contactusbutton,
+  Cardcontainer,
+  Carddiscription,
+  Cardimage,
+  CardimageBox,
+  Detailsimagebox,
+  Cardsbox,
+  Carddetails,
+} from "./cards.styled";
+import isvgimage from "../asserts/information-button-2.png";
+import { Details } from "./cardsdata";
+export function Cardspage() {
+  const Discriptionproduct = Details.map((data) => (
+    <>
+      <Cardcontainer>
+        <Detailsimagebox src={isvgimage} alt="detailsimg" />
+        <Carddetails>
+          <CardimageBox>
+            <Cardimage src={data.url} alt="cardsimg" />
+          </CardimageBox>
+          <Carddiscription>{data.title}</Carddiscription>
+          <Contactusbutton>contact</Contactusbutton>
+        </Carddetails>
+      </Cardcontainer>
+    </>
+  ));
+  return (
+    <>
+      <Cardsbox>{Discriptionproduct}</Cardsbox>
+    </>
+  );
+}

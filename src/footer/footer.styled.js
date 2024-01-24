@@ -34,15 +34,15 @@ export const Footerinnerwrapper = styled.div`
 `;
 
 export const FooterLogo = styled.img`
-  padding: 20px 0px 0px 0px;
+  padding: 94px 0px 0px 0px;
   width: 100%;
-  max-width: 243px;
-  height: 279px;
+  max-width: 238px;
+  height: 160px;
 
   @media (max-width: 991px) {
     max-width: 86px;
     height: 67px;
-    padding: 40px 0px 0px 0px;
+    padding: 90px 0px 0px 0px;
   }
 `;
 

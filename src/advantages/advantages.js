@@ -7,44 +7,55 @@ import {
   Imagewrapper,
   Innerwrapper,
   Advantageleftside,
- TextStyled,
   AdvantageSection,
   AdvantageWrapper,
   Advantagerightside,
-  ContentDiscription,
-  
+  DataContainer,
+  CardIconImage,
+  ListData,
 } from "./advantages.styled";
+import WhyAssect from "../asserts/group-68.png";
+
 export function Advantagespage() {
   return (
     <>
-     
-        <AdvantageSection>
-          <AdvantageWrapper>
-            <Innerwrapper>
-              <Cardcontainer>
-                <Advantagerightside>
-                  <Imagewrapper src="http://217.160.46.77/assets/images/advantages.png "></Imagewrapper>
-                </Advantagerightside>
-                <Advantageleftside>
-                  <Headingstyled>Your advantages at a glance</Headingstyled>
-                  <Discriptionstyled>
-                    It is a long established fact that a reader will be
-                    distracted
-                  </Discriptionstyled>
-                  
-                  <Contentstyled>
-                    <p>
-                      <ContentDiscription> <TextStyled>1</TextStyled> </ContentDiscription>
-                      <li> Your finances: easier than ever With the</li>
-                      <li> best partners at your side </li>
-                    </p>
-                  </Contentstyled>
-                </Advantageleftside>
-              </Cardcontainer>
-            </Innerwrapper>
-          </AdvantageWrapper>
-        </AdvantageSection>
-      
+      <AdvantageSection>
+        <AdvantageWrapper>
+          <Innerwrapper>
+            <Cardcontainer>
+              <Advantagerightside>
+                <Imagewrapper src={WhyAssect} alt="advantageimg"></Imagewrapper>
+              </Advantagerightside>
+              <Advantageleftside>
+                <Headingstyled>Your advantages at a glance</Headingstyled>
+                <Discriptionstyled>
+                  It is a long established fact that a reader will be distracted
+                </Discriptionstyled>
+                <Contentstyled>
+                  <DataContainer>
+                    <CardIconImage>
+                      <ListData>1</ListData>
+                    </CardIconImage>
+                    You take center stage
+                  </DataContainer>
+                  <DataContainer>
+                    <CardIconImage>
+                      <ListData>2</ListData>
+                    </CardIconImage>
+                    You take center stage
+                  </DataContainer>
+                  <DataContainer>
+                    <CardIconImage>
+                      <ListData>3</ListData>
+                    </CardIconImage>
+                    You take center stage
+                  </DataContainer>
+                </Contentstyled>
+              </Advantageleftside>
+            </Cardcontainer>
+          </Innerwrapper>
+        </AdvantageWrapper>
+      </AdvantageSection>
     </>
   );
 }
